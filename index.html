@@ -2,248 +2,340 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+<head>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css"rel= "stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
 
+  <title> Wong's Wok </title>
 
-      <body>
+</head>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-
-
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-            </div>
-            <div class="navbar-collapse collapse" class = "navbar">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#Home">Home</a></li>
-                <li><a href="Drinks.html">Soda Pop</a></li>
-                <li><a href="Snacks.html">Snacks</a></li>
-                <li><a href="Burgers.html">Burgers</a></li>
-                 <li><a href="Ice.html">Ice Cream</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top"><font size="6" color="red">Wong's Wok </font></a>
       </div>
-    </div>
 
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-
-
-
-
-    <div class="container marketing">
-
-        <div class="jumbotron">
-        <h1 class = "head" class="text-center">Bailey's Range</h1>
-        <p class="lead" class="text-center"> Burgers & Shakes | Made from 100% Grass Fed Beef</p> 
-
-        <div class = "text-center">
-        <a class="btn btn-primary" href="https://www.facebook.com/pages/Baileys-Range/141451302615123" target= "_blank" class= "facebook"> <span class="glyphicon glyphicon-thumbs-up"></span> Like Us on Facebook </a> 
-
-      </div>  <br> 
-       
-
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-
-    <div class="item active">
-      <img src="img/Range-home2.jpg"  alt="home" >
-      <div class="carousel-caption">
-      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#menu">Menu</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#location">Location & Contact Information</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#social">Follow Us on Social Media!</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#photos">Photos!</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#hours"><b>Open: Monday - Saturday 11 am - 9 pm</b></a>
+          </li>
+        </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <div class="item">
-      <img src="img/Fries.jpg" alt="Home" >
-      <div class="carousel-caption"> 
-      
-      </div>
-      
-    </div>
+    <!-- /.container -->
+  </nav>
 
-    <div class="item">
-      <img src="img/Burger-window.jpg"  alt="Home" >
-      <div class="carousel-caption"> 
-        
-      </div>
-      
-    </div>
-  
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-
-    <div class= "ourstory" > 
-    <br> <h2 class= "text-center"> Our Story </h2> 
-      <p class = "text-center"> Our restaurant originally started out as a small ice cream shop called Bailey's creamery  in Downtown St. Louis. Bailey's  creamery  was founded by the Bailey family  in 1984. Janet and Phil Bailey always dreamed of opening an ice cream parlor together and when the couple married in 1984, their dream became a reality. Bailey's creamery soon became a St. Louis favorite. During the time Bailey's creamery was in business, they remained classily dedicated  to family ideals, community, and the simplicity of their five original flavors. All of the creamery's ice cream was made from local and pure cow milk. When their son David finished his business degree, he took over the family business and relocated and expanded the creamery.  The name was changed to Bailey's Range and was  transformed into a full restaurant.  The restaurant's menu has greatly expanded over the years, however has stayed true to the original values of family, community, and simplicity.   </p> 
-
-   <span class = "hidden-lg">
-          <span class = "hidden-md" >
-
-            
-          <h2 class="text-center">Hours</h2>
-           <p class="text-center" > MON-SAT: 11am–1am</p> 
-          <p class="text-center" > SUN: 11am-11:30pm </p> 
-          <p class= "text-center"><a class="btn btn-default" href="https://webdesign111.wufoo.com/forms/make-a-reservation/" role="button" target= "_blank"> Make a Reservation &raquo;</a></p>
-          <br> 
-
-           <h2 class="text-center">Location</h2> 
-          <p class="text-center">920 Olive Street </p> 
-          <p class="text-center"> St. Louis, MO 63101 </p>
-          <p class="text-center"> 314.241.8121</p> <p class= "text-center"><a class="btn btn-default" href="https://www.google.com/maps/place/920+Olive+St,+St+Louis,+MO+63101/@38.6288639,-90.1945171,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b319ae0cc965:0xfd27aace62aab532?hl=en" role="button" target= "_blank">Get Directions &raquo;</a></p> 
-          <br> 
-
-          <h2 class="text-center">Contact</h2> 
-          <p class="text-center"> If you have any questions or feedback   <p class= "text-center"> about our restaurant, please contact us. </p>  
-          <p class= "text-center"> We care about our custumors.</p>
-          <p class= "text-center"><a class="btn btn-default" href="mailto:dave@baileysrestaurants.com" role="button" target= "_blank">E-mail Us &raquo;</a></p> 
-
-
-
-
-        </span> 
-      </span> 
-      
-
-
-
-
-
-    </div> 
-
-  </div> 
-
-
-       
-
-
-      <!-- Three columns of text below the carousel -->
-     
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8" >
-        
-      
+        <div class="col-g-12">
+          <h1>Menu</h1>
+          <hr>
+          <h3> Appetizers </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Mini Egg Roll (4) </div>
+            <div class="col-md-3"> $2.50 </div>
+            <div class="col-md-3"> Egg Roll </div>
+            <div class="col-md-3"> $1.25 </div>
+            <div class="col-md-3"> Fried Wonton (6) </div>
+            <div class="col-md-3"> $2.50 </div>
+            <div class="col-md-3"> Crab Rangoon (4) </div>
+            <div class="col-md-3"> $2.50 </div>
+            <div class="col-md-3"> Pot Stickers (6) </div>
+            <div class="col-md-3"> $4.25 </div>
+          </div>
+          <hr>
 
-      <span class= "hidden-sm" > <span class = "hidden-xs" ><div class = "tab_circle">  
-          <h2 class="text-center">Hours</h2>
-           <p class="text-center" > MON-SAT: 11am–1am</p> 
-          <p class="text-center" > SUN: 11am-11:30pm </p> 
-          <br>
-          <br>
-          <p class= "text-center"><a class="btn btn-default" href="https://webdesign111.wufoo.com/forms/make-a-reservation/" role="button" target= "_blank"> Make a Reservation &raquo;</a></p>
+          <h3> Soup </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Egg Drop Soup </div>
+            <div class="col-md-3"> $1.25 </div>
+            <div class="col-md-3"> Wonton Soup </div>
+            <div class="col-md-3"> $1.50 </div>
+            <div class="col-md-3">Hot & Sour Soup</div>
+            <div class="col-md-3"> $1.50 </div>
+          </div>
+          <hr>
 
+          <h3> Chinese Noodle Soup </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Hot Spicy Beef Noodle Soup</div>
+            <div class="col-md-3"> $7.00 </div>
+            <div class="col-md-3"> Chinese Spaghetti </div>
+            <div class="col-md-3"> $6.75 </div>
+          </div>
+          <hr>
 
+          <h3> Pork </h3>
+          <h4> Small Orders: $5.75 Large Orders: $8.50</h4>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Sweet & Sour Pork </div>
+            <div class="col-md-3"> Pork with Broccoli </div>
+            <div class="col-md-3"> Pork with Mixed Vegetable </div>
+            <div class="col-md-3"> Hot Braised Pork </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Twice Pork </div>
+            <div class="col-md-3"> Pork with Garlic Sauce </div>
+            <div class="col-md-3"> Hunan Pork </div>
+            <div class="col-md-3"> Szechuan Pork </div>
+          </div>
+          <hr>
 
-        </div> </span> </span> 
-          
-          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-         
+          <h3> Chicken </h3>
+          <h4> Small Orders: $5.75 Large Orders: $8.50</h4>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Sweet & Sour Chicken </div>
+            <div class="col-md-3"> Chicken with Broccoli </div>
+            <div class="col-md-3"> Moo Goo Gai Pan </div>
+            <div class="col-md-3"> Chicken with Snow Peas </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Chicken with Cashew Nuts </div>
+            <div class="col-md-3"> Chicken with Mixed Vegetables </div>
+            <div class="col-md-3"> Empress Chicken </div>
+            <div class="col-md-3"> Hot Braised Chicken </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Kung Pao Chicken </div>
+            <div class="col-md-3"> Chicken with Garlic Sauce </div>
+            <div class="col-md-3"> Curry Chicken </div>
+            <div class="col-md-3"> Hunan Chicken </div>
+            <div class="col-md-3"> Szechuan Chicken </div>
+          </div>
+          <hr>
 
-         <span class= "hidden-sm" > <span class = "hidden-xs" ><div class = "tab_circle"> 
-          <h2 class="text-center">Location</h2> 
-          <p class="text-center">920 Olive Street </p> 
-          <p class="text-center"> St. Louis, MO 63101 </p>
-          <p class="text-center"> 314.241.8121</p> 
+          <h3> Beef </h3>
+          <h4> Small Orders: $6.50 Large Orders: $9.25</h4>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Beef Pepper Steak </div>
+            <div class="col-md-3"> Beef with Broccoli </div>
+            <div class="col-md-3"> Beef with Snow Peas </div>
+            <div class="col-md-3"> Mongolian Beef </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Beef with Mixed Vegetables </div>
+            <div class="col-md-3"> Beef with Oyster Sauce </div>
+            <div class="col-md-3"> Kung Pao Beef </div>
+            <div class="col-md-3"> Beef with Garlic Sauce </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Hunan Beef </div>
+            <div class="col-md-3"> Szechuan Beef </div>
+          </div>
+          <hr>
 
-          
-        
-          <p class= "text-center"><a class="btn btn-default" href="https://www.google.com/maps/place/920+Olive+St,+St+Louis,+MO+63101/@38.6288639,-90.1945171,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b319ae0cc965:0xfd27aace62aab532?hl=en" role="button" target= "_blank">Get Directions &raquo;</a></p> </span> <span> 
+          <h3> Seafood </h3>
+          <h4> Small Orders: $6.50 Large Orders: $9.25</h4>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Sweet & Sour Shrimp </div>
+            <div class="col-md-3"> Shrimp with Snow Peas </div>
+            <div class="col-md-3"> Shrimp with Broccoli </div>
+            <div class="col-md-3">Shrimp with Mixed Vegetables </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Shrimp with Cashew Nuts </div>
+            <div class="col-md-3"> Kung Pao Shrimp </div>
+            <div class="col-md-3"> Shrimp with Garlic </div>
+            <div class="col-md-3"> Hunan Shrimp </div>
+          </div>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Scallops with Broccoli </div>
+            <div class="col-md-3"> Scallops with Mixed Vegetables </div>
+            <div class="col-md-3"> Scallops with Garlic Sauce </div>
+          </div>
+          <hr>
 
-      </div> 
-          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-         
+          <h3> Lo Mein </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Vegetable, Chicken, or Pork</div>
+            <div class="col-md-3"> $7.00</div>
+            <div class="col-md-3"> Beef or Shrimp </div>
+            <div class="col-md-3"> $7.50 </div>
+            <div class="col-md-3"> Special </div>
+            <div class="col-md-3"> $8.25 </div>
+          </div>
+          <hr>
 
-        <span class= "hidden-sm"> <span class = "hidden-xs" > <div class = "tab_circle" > 
-          <h2 class="text-center">Contact</h2> 
-          <p class="text-center"> If you have any questions or feedback   <p class= "text-center"> about our restaurant, please contact us. </p>  
-          <p class= "text-center"> We care about our custumors.</p>
-          <p class= "text-center"><a class="btn btn-default" href="mailto:dave@baileysrestaurants.com" role="button" target= "_blank">E-mail Us &raquo;</a></p> </span> </span> 
+          <h3> Fried Rice </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Plain </div>
+            <div class="col-md-3"> $3.00 - $4.50 </div>
+            <div class="col-md-3"> Vegetable/Chicken/Pork/Ham </div>
+            <div class="col-md-3"> $3.75 - $5.25 </div>
+            <div class="col-md-3"> Beef or Shrimp </div>
+            <div class="col-md-3"> $4.00-$5.75 </div>
+            <div class="col-md-3"> Special </div>
+            <div class="col-md-3"> $4.25 - $6.25 </div>
+          </div>
+          <hr>
 
-        </div> 
+          <h3> Vegetables </h3>
+          <div class="row" align ="center">
+            <div class="col-md-3"> Stir-Fry Broccoli </div>
+            <div class="col-md-3"> $5.00 - $7.25 </div>
+            <div class="col-md-3"> Vegetable Delight</div>
+            <div class="col-md-3"> $5.00 - $7.25 </div>
+            <div class="col-md-3"> Broccoli with Garlic Sauce </div>
+            <div class="col-md-3"> $5.00 - $7.25 </div>
+            <div class="col-md-3"> Bean Curd Mixed Vegetables </div>
+            <div class="col-md-3"> $7.50 </div>
+            <div class="col-md-3"> Bean Curd, Szechuan Style</div>
+            <div class="col-md-3"> $7.50 </div>
+            <div class="col-md-3"> Dry Sauteed String Bean </div>
+            <div class="col-md-3"> $7.50 </div>
+            <div class="col-md-3"> Egg Plant with Garlic Sauce</div>
+            <div class="col-md-3"> $7.50 </div>
+          </div>
+          <hr>
 
+          <h3> Chef's Specialties </h3>
+          <h5>Happy Family - $12.00</h5>
+          <div>Shrimp, scallops, beef and chicken sauteed with baby corn, mushrooms, snow peas, carrots, water chestnut, broccoli in special sauce</div>
+          <h5>Triple Delight - $11.50</h5>
+          <div>Shrimp, chicken and beef with snow peas, baby corn, mushrooms, carrot, broccoli, water chestnuts</div>
+          <h5>Kung Pao Triple - $11.50</h5>
+          <div>Beef, scallops, shrimp with green pepper, onion, carrot, peanuts</div>
+          <h5>Sizzling Beef & Scallops - $11.50</h5>
+          <div>Beef, scallops with baby corn, mushrooms, carrot, broccoli, water chestnuts in chef's special sauce</div>
+          <h5>Double Delight with Mixed Vegetables - $11.50</h5>
+          <div>Shrimp, scallops with baby corn, mushrooms, carrots, broccoli, water chestnuts in chef's special sauce</div>
+          <h5>Pineapple Shrimp - $11.50</h5>
+          <div>Shrimp sauteed with pineapple</div>
+          <h5>General Tso's Chicken - $10.50</h5>
+          <div>Chicken, broccoli with tingling hot sauce</div>
+          <h5>Sesame Chicken - $10.50</h5>
+          <div>Chicken sauteed with broccoli in special sauce</div>
+          <h5>Orange Chicken -$10.50</h5>
+          <div>Chicken sauteed with broccoli, orange peel in special sauce</div>
+          <h5>Amazing Chicken - $10.50</h5>
+          <div>Sliced chicken sauteed with snow peas, mushrooms, water chestnut in special sauce</div>
+          <h5>Fish with Mixed Vegetable - $10.50</h5>
+          <div>Sliced fish with snow peas, mushroom, water chestnut and broccoli</div>
+          <h5>General Tso's Fish - $10.50</h5>
+          <div>Sliced fish sauteed with broccoli</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Location & Contact Section -->
+<section id="location" class="location-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Location & Contact Information</h1>
+        <h3> 565 Melville Ave.</h3>
+        <h3> St. Louis, MO 63130</h3>
+        <h3> Phone: (314)-726-0976</h3>
+        <img src="https://www.google.com/maps/vt/data=U4aSnIyhBFNIJ3A8fCzUmaVIwyWq6RtIfB4QKiGq_w,oKu9UyBJpA7r5SX_ItYYUd6WCzllVVV2OmB2wg6QxPkv_QFXuKF8duv78dAdm4axLbrUzBdcHHNjdykq3mojIUI5Ue4QuF9BUjaltq-YMcp9C8Um6cS4HCwfIWAIcqgKiDQqBy5MN2EUWw"> 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
 
-        </div> 
-          
+<!-- Social Media Section -->
+<section id="social" class="social-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Follow Us!</h1>
+      </div>
+      <div class="row">
+        <a href="https://twitter.com/">
+          <img src = "https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300" style = "width:300px;height:300px">
+        </a>
+        <a href="https://facebook.com/">
+          <img src = "https://lh5.ggpht.com/_XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300" style = "width:300px;height:300px">
+        </a>
+        <a href="https://instagram.com/">
+          <img src = "https://pbs.twimg.com/profile_images/1550954462/instagramIcon_400x400.png" style = "width:300px;height:300px">
+        </a>
+        <p> *Note: Links take you to homepages of each social media site. Wong's Wok does not use social media in their operations.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-          
-        
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-  
+<!-- Photos Section -->
+<section id="photos" class="photos-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Photos!</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src = "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/v/t1.0-1/c33.33.414.414/s160x160/943476_274645426012139_1234521515_n.jpg?oh=f32ab558810d074bbefa4751ee98b445&oe=5549CD72&__gda__=1431316449_800e5d959b2203df0c9d5836591357bf" style = "width:300px;height:300px">
+        </div>
+        <div class = "col-md-4">
+          <img src = "http://physicalculturist.ca/wp-content/uploads/2013/12/stirfry-chinese-people-eating.jpg" style = "width:300px;height:300px">
+        </div>
+        <div class = "col-md-4">
+          <img src = "http://wonderopolis.org/wp-content/uploads/2013/05/955-Food-in-China-896x481.jpg" style = "width:300px;height:300px">
+        </div>
+        <h4>
+          Email us a picture of you enjoying Wong's Wok and we will put you on our site!
+          <a href="mailto:blakeavery@wustl.edu">Email Picture</a>
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="https://www.facebook.com/pages/Baileys-Range/141451302615123" target= "_blank"> <span class="glyphicon glyphicon-thumbs-up"></span> Like Us on Facebook!</a> 
-      </footer>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    </div><!-- /.container -->
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
+</body>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>
