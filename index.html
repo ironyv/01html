@@ -1,341 +1,233 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
+    <!-- 
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+    Hello, welcome to my website source code.
+    
+    Feel free to look around, and take as much time as you need.
 
-  <title> Wong Wok </title>
+    Please, no flash photography.
 
+
+    Thanks,
+
+    Nathan
+
+
+
+    .-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The portfolio website of Nathan Gitter. I'm an engineer/artist that likes making things that work well and look good. Come see what I can do.">
+    <meta name="keywords" content="nathan, gitter, nathan gitter, design, development, engineering, art, web development, software, ios, software engineer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nathan Gitter</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="image_src" href="img/ng_black.png">
+    <script src="js/modernizr.min.js"></script>
 </head>
+<body>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top"><font size="6" color="red">Wong's Wok </font></a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden">
-            <a class="page-scroll" href="#page-top"></a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#menu">Menu</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#location">Location & Contact Information</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#social">Follow Us on Social Media!</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#photos">Photos!</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#hours"><b>Open: Monday - Saturday 11 am - 9 pm</b></a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
-
-  <!-- Menu Section -->
-  <section id="menu" class="menu-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-g-12">
-          <h1>Menu</h1>
-          <hr>
-          <h3> Appetizers </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Mini Egg Roll (4) </div>
-            <div class="col-md-3"> $2.50 </div>
-            <div class="col-md-3"> Egg Roll </div>
-            <div class="col-md-3"> $1.25 </div>
-            <div class="col-md-3"> Fried Wonton (6) </div>
-            <div class="col-md-3"> $2.50 </div>
-            <div class="col-md-3"> Crab Rangoon (4) </div>
-            <div class="col-md-3"> $2.50 </div>
-            <div class="col-md-3"> Pot Stickers (6) </div>
-            <div class="col-md-3"> $4.25 </div>
-          </div>
-          <hr>
-
-          <h3> Soup </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Egg Drop Soup </div>
-            <div class="col-md-3"> $1.25 </div>
-            <div class="col-md-3"> Wonton Soup </div>
-            <div class="col-md-3"> $1.50 </div>
-            <div class="col-md-3">Hot & Sour Soup</div>
-            <div class="col-md-3"> $1.50 </div>
-          </div>
-          <hr>
-
-          <h3> Chinese Noodle Soup </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Hot Spicy Beef Noodle Soup</div>
-            <div class="col-md-3"> $7.00 </div>
-            <div class="col-md-3"> Chinese Spaghetti </div>
-            <div class="col-md-3"> $6.75 </div>
-          </div>
-          <hr>
-
-          <h3> Pork </h3>
-          <h4> Small Orders: $5.75 Large Orders: $8.50</h4>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Sweet & Sour Pork </div>
-            <div class="col-md-3"> Pork with Broccoli </div>
-            <div class="col-md-3"> Pork with Mixed Vegetable </div>
-            <div class="col-md-3"> Hot Braised Pork </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Twice Pork </div>
-            <div class="col-md-3"> Pork with Garlic Sauce </div>
-            <div class="col-md-3"> Hunan Pork </div>
-            <div class="col-md-3"> Szechuan Pork </div>
-          </div>
-          <hr>
-
-          <h3> Chicken </h3>
-          <h4> Small Orders: $5.75 Large Orders: $8.50</h4>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Sweet & Sour Chicken </div>
-            <div class="col-md-3"> Chicken with Broccoli </div>
-            <div class="col-md-3"> Moo Goo Gai Pan </div>
-            <div class="col-md-3"> Chicken with Snow Peas </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Chicken with Cashew Nuts </div>
-            <div class="col-md-3"> Chicken with Mixed Vegetables </div>
-            <div class="col-md-3"> Empress Chicken </div>
-            <div class="col-md-3"> Hot Braised Chicken </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Kung Pao Chicken </div>
-            <div class="col-md-3"> Chicken with Garlic Sauce </div>
-            <div class="col-md-3"> Curry Chicken </div>
-            <div class="col-md-3"> Hunan Chicken </div>
-            <div class="col-md-3"> Szechuan Chicken </div>
-          </div>
-          <hr>
-
-          <h3> Beef </h3>
-          <h4> Small Orders: $6.50 Large Orders: $9.25</h4>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Beef Pepper Steak </div>
-            <div class="col-md-3"> Beef with Broccoli </div>
-            <div class="col-md-3"> Beef with Snow Peas </div>
-            <div class="col-md-3"> Mongolian Beef </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Beef with Mixed Vegetables </div>
-            <div class="col-md-3"> Beef with Oyster Sauce </div>
-            <div class="col-md-3"> Kung Pao Beef </div>
-            <div class="col-md-3"> Beef with Garlic Sauce </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Hunan Beef </div>
-            <div class="col-md-3"> Szechuan Beef </div>
-          </div>
-          <hr>
-
-          <h3> Seafood </h3>
-          <h4> Small Orders: $6.50 Large Orders: $9.25</h4>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Sweet & Sour Shrimp </div>
-            <div class="col-md-3"> Shrimp with Snow Peas </div>
-            <div class="col-md-3"> Shrimp with Broccoli </div>
-            <div class="col-md-3">Shrimp with Mixed Vegetables </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Shrimp with Cashew Nuts </div>
-            <div class="col-md-3"> Kung Pao Shrimp </div>
-            <div class="col-md-3"> Shrimp with Garlic </div>
-            <div class="col-md-3"> Hunan Shrimp </div>
-          </div>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Scallops with Broccoli </div>
-            <div class="col-md-3"> Scallops with Mixed Vegetables </div>
-            <div class="col-md-3"> Scallops with Garlic Sauce </div>
-          </div>
-          <hr>
-
-          <h3> Lo Mein </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Vegetable, Chicken, or Pork</div>
-            <div class="col-md-3"> $7.00</div>
-            <div class="col-md-3"> Beef or Shrimp </div>
-            <div class="col-md-3"> $7.50 </div>
-            <div class="col-md-3"> Special </div>
-            <div class="col-md-3"> $8.25 </div>
-          </div>
-          <hr>
-
-          <h3> Fried Rice </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Plain </div>
-            <div class="col-md-3"> $3.00 - $4.50 </div>
-            <div class="col-md-3"> Vegetable/Chicken/Pork/Ham </div>
-            <div class="col-md-3"> $3.75 - $5.25 </div>
-            <div class="col-md-3"> Beef or Shrimp </div>
-            <div class="col-md-3"> $4.00-$5.75 </div>
-            <div class="col-md-3"> Special </div>
-            <div class="col-md-3"> $4.25 - $6.25 </div>
-          </div>
-          <hr>
-
-          <h3> Vegetables </h3>
-          <div class="row" align ="center">
-            <div class="col-md-3"> Stir-Fry Broccoli </div>
-            <div class="col-md-3"> $5.00 - $7.25 </div>
-            <div class="col-md-3"> Vegetable Delight</div>
-            <div class="col-md-3"> $5.00 - $7.25 </div>
-            <div class="col-md-3"> Broccoli with Garlic Sauce </div>
-            <div class="col-md-3"> $5.00 - $7.25 </div>
-            <div class="col-md-3"> Bean Curd Mixed Vegetables </div>
-            <div class="col-md-3"> $7.50 </div>
-            <div class="col-md-3"> Bean Curd, Szechuan Style</div>
-            <div class="col-md-3"> $7.50 </div>
-            <div class="col-md-3"> Dry Sauteed String Bean </div>
-            <div class="col-md-3"> $7.50 </div>
-            <div class="col-md-3"> Egg Plant with Garlic Sauce</div>
-            <div class="col-md-3"> $7.50 </div>
-          </div>
-          <hr>
-
-          <h3> Chef's Specialties </h3>
-          <h5>Happy Family - $12.00</h5>
-          <div>Shrimp, scallops, beef and chicken sauteed with baby corn, mushrooms, snow peas, carrots, water chestnut, broccoli in special sauce</div>
-          <h5>Triple Delight - $11.50</h5>
-          <div>Shrimp, chicken and beef with snow peas, baby corn, mushrooms, carrot, broccoli, water chestnuts</div>
-          <h5>Kung Pao Triple - $11.50</h5>
-          <div>Beef, scallops, shrimp with green pepper, onion, carrot, peanuts</div>
-          <h5>Sizzling Beef & Scallops - $11.50</h5>
-          <div>Beef, scallops with baby corn, mushrooms, carrot, broccoli, water chestnuts in chef's special sauce</div>
-          <h5>Double Delight with Mixed Vegetables - $11.50</h5>
-          <div>Shrimp, scallops with baby corn, mushrooms, carrots, broccoli, water chestnuts in chef's special sauce</div>
-          <h5>Pineapple Shrimp - $11.50</h5>
-          <div>Shrimp sauteed with pineapple</div>
-          <h5>General Tso's Chicken - $10.50</h5>
-          <div>Chicken, broccoli with tingling hot sauce</div>
-          <h5>Sesame Chicken - $10.50</h5>
-          <div>Chicken sauteed with broccoli in special sauce</div>
-          <h5>Orange Chicken -$10.50</h5>
-          <div>Chicken sauteed with broccoli, orange peel in special sauce</div>
-          <h5>Amazing Chicken - $10.50</h5>
-          <div>Sliced chicken sauteed with snow peas, mushrooms, water chestnut in special sauce</div>
-          <h5>Fish with Mixed Vegetable - $10.50</h5>
-          <div>Sliced fish with snow peas, mushroom, water chestnut and broccoli</div>
-          <h5>General Tso's Fish - $10.50</h5>
-          <div>Sliced fish sauteed with broccoli</div>
+    <section id="welcome">
+        <div id="velocity-dot-container" class="hidden-xs"></div>
+        <header id="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a id="logo-link" href="http://nathangitter.com">
+                            <img src="img/ng_white.png" alt="ng logo" width="70px">
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="nav-links">
+                            <a class="current" href="http://nathangitter.com">About</a>
+                            <a class="not-current" href="portfolio">Portfolio</a>
+                            <a class="not-current" href="contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="hello" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Hello. I'm Nathan.</h1>
+                    <h3>I like</h3>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Location & Contact Section -->
-<section id="location" class="location-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Location & Contact Information</h1>
-        <h3> 565 Melville Ave.</h3>
-        <h3> St. Louis, MO 63130</h3>
-        <h3> Phone: (314)-726-0976</h3>
-        <img src="https://www.google.com/maps/vt/data=U4aSnIyhBFNIJ3A8fCzUmaVIwyWq6RtIfB4QKiGq_w,oKu9UyBJpA7r5SX_ItYYUd6WCzllVVV2OmB2wg6QxPkv_QFXuKF8duv78dAdm4axLbrUzBdcHHNjdykq3mojIUI5Ue4QuF9BUjaltq-YMcp9C8Um6cS4HCwfIWAIcqgKiDQqBy5MN2EUWw"> 
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-
-<!-- Social Media Section -->
-<section id="social" class="social-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Follow Us!</h1>
-      </div>
-      <div class="row">
-        <a href="https://twitter.com/">
-          <img src = "https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300" style = "width:300px;height:300px">
-        </a>
-        <a href="https://facebook.com/">
-          <img src = "https://lh5.ggpht.com/_XklY7dK6yGsYt53X15RIp7-tbdjWMwQwl_iUAcW-uSq_8zAprmywdn5DQfBHvxZurs1=w300" style = "width:300px;height:300px">
-        </a>
-        <a href="https://instagram.com/">
-          <img src = "https://pbs.twimg.com/profile_images/1550954462/instagramIcon_400x400.png" style = "width:300px;height:300px">
-        </a>
-        <p> *Note: Links take you to homepages of each social media site. Wong's Wok does not use social media in their operations.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Photos Section -->
-<section id="photos" class="photos-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Photos!</h1>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src = "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/v/t1.0-1/c33.33.414.414/s160x160/943476_274645426012139_1234521515_n.jpg?oh=f32ab558810d074bbefa4751ee98b445&oe=5549CD72&__gda__=1431316449_800e5d959b2203df0c9d5836591357bf" style = "width:300px;height:300px">
+        <div id="animation" class="container">
+            <div class="row">
+                <div class="col-xs-7 ing-box">
+                    <div id="ing-container">
+                        <div id="verbs"></div>
+                    </div>
+                </div>
+                <div class="col-xs-5 ing-box">
+                    <img src="img/ng_white.png" alt="ng logo">
+                </div>
+            </div>
         </div>
-        <div class = "col-md-4">
-          <img src = "http://physicalculturist.ca/wp-content/uploads/2013/12/stirfry-chinese-people-eating.jpg" style = "width:300px;height:300px">
+        <div id="actions" class="conatiner">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 actions-holder">
+                    <div class="actions-button-container">
+                        <a href="#philosophy">
+                            <div class="actions-button about-button">Learn About Me</div>
+                        </a>
+                    </div>
+                    <div class="actions-button-container">
+                        <a href="portfolio">
+                            <div class="actions-button portfolio-button">See My Work</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class = "col-md-4">
-          <img src = "http://wonderopolis.org/wp-content/uploads/2013/05/955-Food-in-China-896x481.jpg" style = "width:300px;height:300px">
+    </section>
+
+    <section id="philosophy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>designing. developing. doing.</h2>
+                    <p>I enjoy a wide variety of creative processes, but my favorite part about each one is the most important part &mdash; actually executing the design. I like making things that both work well and look good.</p>
+                </div>
+            </div>
         </div>
-        <h4>
-          Email us a picture of you enjoying Wong's Wok and we will put you on our site!
-          <a href="mailto:blakeavery@wustl.edu">Email Picture</a>
-        </h4>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <section id="split">
+        <div class="container-fluid">
+            <div id="split-row" class="row">
+                <div id="dev" class="col-xs-6">
+                    <div class="ability-button-container abc-dev">
+                        <div class="ability">
+                            <img src="img/css.png" alt="css">
+                            <h5>CSS</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/html.png" alt="html">
+                            <h5>HTML</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/js.png" alt="javascript">
+                            <h5>Javascript</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/java.png" alt="java">
+                            <h5>Java</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/swift.png" alt="swift">
+                            <h5>Swift</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="des" class="col-xs-6">
+                    <div class="ability-button-container abc-des">
+                        <div class="ability">
+                            <img src="img/ps.png" alt="photoshop">
+                            <h5>Photoshop</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/ai.png" alt="illustrator">
+                            <h5>Illustrator</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/id.png" alt="indesign">
+                            <h5>InDesign</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/pixelmator.png" alt="pixelmator">
+                            <h5>Pixelmator</h5>
+                        </div>
+                        <div class="ability">
+                            <img src="img/blender.png" alt="blender">
+                            <h5>blender</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="image-holder">
+                    <img class="img-responsive" src="img/gear.svg" alt="rotating gear">
+                </div>
+                <div id="overlay">
+                    <h3>the dichotomy</h3>
+                    <p>I consider myself to be both an engineer and an artist. I also don't see my left-brain and right-brain orientations to be in conflict at all. In fact, I think being analytical and being artistic are two derivatives of having a creative mind. And it allows me to make some pretty cool things.</p>
+                </div>
+                <div id="code">
+                    <img src="img/code.png" alt="swift code">
+                </div>
+                <div id="art">
+                    <img src="img/art.svg" alt="an abstract representation of my artistic side">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+    <section id="action-portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>See what I've done.</h4>
+                    <div id="port-but-container">
+                        <a href="portfolio">
+                            <div id="portfolio-button">my portfolio</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Scrolling Nav JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-nav">
+                        <a href="http://nathangitter.com">About</a>
+                        <a class="pusher" href="portfolio">Portfolio</a>
+                        <a href="contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <small>&copy; 2015 Nathan Gitter. All Rights Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/plusanchor.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41548817-2', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 
 </body>
-
 </html>
