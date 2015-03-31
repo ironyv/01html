@@ -33,7 +33,7 @@ h6 {
 
 p {
 	font-size: 18px;
-	color: blue;
+	color: black;
 }
 
 .header {
@@ -54,7 +54,10 @@ h3 {
 	padding-bottom: 50px;
 	font-weight: bold;
 }
-
+h4 {
+	text-decoration: underline;
+	font-weight: bold;
+}
 h1, h2, li {
 	text-transform: uppercase;
 }
