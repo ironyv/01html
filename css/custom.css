@@ -40,7 +40,7 @@ p {
 }
 
 .block img {
-	border-radius: 100%;
+	border-radius: 120%;
 	border: 3px solid black;
 	
 }
@@ -128,14 +128,14 @@ ul {
 .about { 
 	display: block;
 	margin: 0 auto;
-	border-radius: 100%;
+	border-radius: 120%;
 	border: 3px solid black;
 	margin-bottom: 50px;
 }
 
 .icon:hover {
 	background-color: #29B0B3;
-	border-radius: 100%;
+	border-radius: 120%;
 }
 
 .neon {
