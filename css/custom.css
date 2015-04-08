@@ -83,14 +83,12 @@ li {
 	margin-top: 5px;
 	border-bottom: dashed 2px blue;
 }
-img.soccer {
+.soccer {
 	width: 175
 	text-align: center;
+	display: inline-block;
 }
-.soccerimg {
-	width: 175
-	text-align: center;
-}
+
 
 .img-wrap {
 	height: 300px;
@@ -107,9 +105,6 @@ img.soccer {
 	padding-bottom: 50px;
 }
 
-.img-wrap {
-	height: 300px;
-}
 
 a {
 	text-decoration: none;
