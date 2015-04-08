@@ -83,7 +83,9 @@ li {
 	margin-top: 5px;
 	border-bottom: dashed 2px blue;
 }
-	
+.img {
+	width: 175;
+}
 .img-wrap {
 	height: 300px;
 }
